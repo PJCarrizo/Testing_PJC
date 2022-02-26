@@ -1,0 +1,1 @@
+void registrar_mensaje(int gravedad, const char *funcion, int linea, const char *mensaje);
