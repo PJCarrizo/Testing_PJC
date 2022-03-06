@@ -1,0 +1,26 @@
+---
+:source:
+  :path: test
+  :file: test_tp4.c
+:successes:
+- :test: 'test_inicializar_sensor '
+  :line: 38
+  :message: ''
+  :unity_test_time: 0
+- :test: 'test_mover_motor_pap_giro_completo '
+  :line: 46
+  :message: ''
+  :unity_test_time: 0
+:failures:
+- :test: 'test_tracking_segun_coordenada '
+  :line: 52
+  :message: Function tracking.  Called fewer times than expected.
+  :unity_test_time: 0
+:ignores: []
+:counts:
+  :total: 3
+  :passed: 2
+  :failed: 1
+  :ignored: 0
+:stdout: []
+:time: 0.001959944998816354
